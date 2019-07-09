@@ -1,0 +1,28 @@
+{
+    "name": "irooit/nova-theme-bootstrap4",
+    "description": "nova bootstrap4",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rooit",
+            "email": "hi@rooit.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Irooit\\NovaThemeBootstrap4\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Irooit\\NovaThemeBootstrap4\\ThemeServiceProvider"
+            ]
+        }
+    }
+}
