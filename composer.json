@@ -9,6 +9,11 @@
             "email": "hi@rooit.com"
         }
     ],
+    "keywords": [
+        "laravel",
+        "nova",
+        "theme"
+    ],
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.1.0"
